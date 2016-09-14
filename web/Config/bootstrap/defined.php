@@ -3,7 +3,7 @@
 session_start();
 
 
-defined('CONFIGPATH') or define('CONFIGPATH', '/var/www/config');
+defined('CONFIGPATH') or define('CONFIGPATH', '/web/www/HuanYaoBang/config');
 
 defined('WebSiteName') or define('WebSiteName','/HuanYaoBang/web');
 
@@ -39,7 +39,7 @@ defined('WebSiteUrlPublicPath') or define('WebSiteUrlPublicPath', ROOT_DIR.'/Pub
 
 defined('URL_PATHINFO_FETCH') or define('URL_PATHINFO_FETCH', 'ORIG_PATH_INFO,REDIRECT_PATH_INFO,REDIRECT_URL');
 
-defined('SERVICEURL') or define('SERVICEURL','http://localhost');
+defined('SERVICEURL') or define('SERVICEURL','http://www.zxp.com/');
 
 defined('VAR_MODULE') or define('VAR_MODULE', 'a');
 
@@ -49,8 +49,8 @@ defined('VAR_GROUP') or define('VAR_GROUP', 'g');
 
 defined('VAR_CUSTOMIZE') or define('VAR_CUSTOMIZE', 'c');
 
-error_reporting(E_ERROR | E_WARNING | E_PARSE); 
-
 include_once '/web/www/HuanYaoBang/config/include.php';
+
+error_reporting(E_ERROR | E_WARNING | E_PARSE); 
 
 ?>

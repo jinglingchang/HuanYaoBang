@@ -1,16 +1,16 @@
-<?php /* Smarty version Smarty-3.0-RC2, created on 2016-08-25 15:31:34
+<?php /* Smarty version Smarty-3.0-RC2, created on 2016-08-26 09:18:51
          compiled from "/web/www/HuanYaoBang/admin/Tpl/website/article_list.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:91534707357be9ed6f37547-74141833%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:200738860557bf98fb0abea6-02881282%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '4c212fe533fcb96043ab0e5e3cc758342430028c' => 
     array (
       0 => '/web/www/HuanYaoBang/admin/Tpl/website/article_list.tpl',
-      1 => 1472110293,
+      1 => 1472174326,
     ),
   ),
-  'nocache_hash' => '91534707357be9ed6f37547-74141833',
+  'nocache_hash' => '200738860557bf98fb0abea6-02881282',
   'function' => 
   array (
   ),
@@ -102,7 +102,7 @@ if (count($_from) > 0){
 </td>
                 <td style="width: 220px;"><?php echo $_smarty_tpl->tpl_vars['datas']->value['read_number'];?>
 </td>
-                <td><?php echo smarty_modifier_date_format($_smarty_tpl->tpl_vars['datas']->value['create_time'],"%Y-%m-%d");?>
+                <td><?php echo smarty_modifier_date_format($_smarty_tpl->tpl_vars['datas']->value['create_time'],"%Y-%m-%d %H:%M:%S");?>
 </td>
                 <td>
                     <a href="pageredirst.php?action=article&functionname=edit&id=<?php echo $_smarty_tpl->tpl_vars['datas']->value['id'];?>

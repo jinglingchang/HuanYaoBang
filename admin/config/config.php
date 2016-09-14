@@ -9,6 +9,8 @@ defined('ROOTPATH') or define('ROOTPATH', getcwd());
 
 defined('project') or define('project', 'admin');
 
+defined('APIURL') or define('APIURL','http://localhost/HuanYaoBang/api');
+
 defined('WebSiteUrl') or define('WebSiteUrl', 'http://' . $_SERVER['HTTP_HOST'] . '/HuanYaoBang/' . project);
 
 defined('FOOTBASIC') or define('FOOTBASIC', ROOTPATH . '/Db/');

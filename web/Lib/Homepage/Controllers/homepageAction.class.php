@@ -10,7 +10,27 @@ class HomepageAction extends Action {
 
    public function index(){
 
-       echo 1234;
+        $this->display('index');
+   }
+
+   public function huanyaoxuzhi(){
+
+   		$this->display('huanyaoxuzhi');
+   }
+
+   public function daoyitai(){
+
+   		$this->display('daoyitai');
+   }
+
+   public function zuixinhuodong(){
+
+   		$this->display('zuixinhuodong');
+   }
+
+   public function yaoqinghaoyou(){
+
+   		$this->display('yaoqinghaoyou');
    }
 
 }

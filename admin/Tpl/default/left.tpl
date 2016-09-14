@@ -59,7 +59,7 @@ $(function() {
                     <tr>
                         <td width="100%">
                             <div class='left-a'>
-                                <a style='' href="{$WEBSITEURL}/pageredirst.php?action=user&functionname=commect_list" target="mainFrame" class="left-fontSmall">评论信息</a>
+                                <a style='' href="{$WEBSITEURL}/pageredirst.php?action=user&functionname=review" target="mainFrame" class="left-fontSmall">患者评价</a>
                             </div>
                         </td>
                     </tr>

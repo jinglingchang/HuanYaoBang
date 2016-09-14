@@ -4,66 +4,6 @@ require 'Db.class.php';
 
 class ActiveRecord extends Db {
 
-    public $field_array = array();
-
-    public function setFieldValue($field, $value) {
-
-        if (!empty($field) && isset($value)) {
-
-            $this->field_array[$field] = $value;
-        }
-    }
-
-    public function joinFieldValue() {
-
-        $where = '';
-
-        if ($this->field_array != NULL && count($this->field_array) > 0) {
-
-            foreach ($this->field_array as $k => $v) {
-
-                $temp = '';
-
-                if (is_string($v)) {
-
-                    switch ($v) {
-
-                        case 'null':
-
-                            $temp = " is null";
-
-                            break;
-
-                        case 'not null':
-
-                            $temp = " is not null";
-
-                            break;
-
-                        default:
-
-                            $temp = " like '" . $v . "'";
-                    }
-
-                    $temp = $k . $temp;
-                } else {
-
-                    $temp = $k . " = " . $v;
-                }
-
-                if (!empty($where)) {
-
-                    $where.=' and ' . $temp;
-                } else {
-
-                    $where = $temp;
-                }
-            }
-        }
-
-        return $where;
-    }
-
     public function offset($offset) {
 
         if (isset($offset)) {
@@ -159,7 +99,7 @@ class ActiveRecord extends Db {
     /**
      *  插入操作
      */
-    public function add($data = '') {
+    public function create($data = '') {
 
         if (is_array($data)) {
 
@@ -187,7 +127,7 @@ class ActiveRecord extends Db {
     /**
      * 删除
      */
-    public function delete() {
+    public function remove() {
 
         $option = $this->_parseOptions();
 

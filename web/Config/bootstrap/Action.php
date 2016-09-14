@@ -364,12 +364,7 @@ class Action {
 
             chmod($this->smarty->template_dir . $displayPage . '.tpl', 0777);
         }
-
-        $routeModel = new routeModel();
-
-        $routeModel->jump();
-
-
+        
         //$user_id = getUserId();
 
         if (!empty($_SESSION['user_info']['user_id'])) {

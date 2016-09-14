@@ -86,9 +86,9 @@ class ReviewModel extends baseModel
 
         $this->createObjectAttr($info);
 
-        if (!empty($info['openid'])) {
+        if (!empty($info['open_id'])) {
 
-            $this->user_info = M('hyb_weixin_info')->where('openid like "' . $info['openid'] . '" ')->find();
+            $this->user_info = M('hyb_weixin_info')->where('openid like "' . $info['open_id'] . '" ')->find();
         }
 
         //获取回复数量

@@ -55,6 +55,7 @@ class website {
                      * 执行方法
                      */
                     call_user_func(array(&$module, ACTION_NAME));
+                    
                 } else {
 
 

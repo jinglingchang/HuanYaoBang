@@ -71,7 +71,7 @@
                 <td>{$datas.auther}</td>
                 <td>{$datas.type.name}</td>
                 <td style="width: 220px;">{$datas.read_number}</td>
-                <td>{$datas.create_time|date_format:"%Y-%m-%d"}</td>
+                <td>{$datas.create_time|date_format:"%Y-%m-%d %H:%M:%S"}</td>
                 <td>
                     <a href="pageredirst.php?action=article&functionname=edit&id={$datas.id}">编辑</a>
                 </td>

@@ -1,16 +1,16 @@
-<?php /* Smarty version Smarty-3.0-RC2, created on 2016-08-25 13:58:04
+<?php /* Smarty version Smarty-3.0-RC2, created on 2016-08-26 09:27:22
          compiled from "/web/www/HuanYaoBang/admin/Tpl/default/left.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:156615568857be88ecb29664-89505374%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:209020756657bf9afa385558-46966872%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'a61b53a25b7c8ba8fefc13447aa33cbe4725f2bf' => 
     array (
       0 => '/web/www/HuanYaoBang/admin/Tpl/default/left.tpl',
-      1 => 1472104680,
+      1 => 1472174540,
     ),
   ),
-  'nocache_hash' => '156615568857be88ecb29664-89505374',
+  'nocache_hash' => '209020756657bf9afa385558-46966872',
   'function' => 
   array (
   ),
@@ -81,7 +81,7 @@ $(function() {
                         <td width="100%">
                             <div class='left-a'>
                                 <a style='' href="<?php echo $_smarty_tpl->getVariable('WEBSITEURL')->value;?>
-/pageredirst.php?action=user&functionname=commect_list" target="mainFrame" class="left-fontSmall">评论信息</a>
+/pageredirst.php?action=user&functionname=review" target="mainFrame" class="left-fontSmall">患者评价</a>
                             </div>
                         </td>
                     </tr>
