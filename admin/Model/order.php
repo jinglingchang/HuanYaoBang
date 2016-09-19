@@ -81,7 +81,9 @@ class orderModel extends BaseModel
 
         $this->getInfoByPage();
 
-        $this->fenye('drug', 'drug_list&ddd=1234');
+        $this->fenye('order', 'order_list');
+
+        //$this->fenye('drug', 'drug_list&ddd=1234');
     }
 
     public function getTotal()

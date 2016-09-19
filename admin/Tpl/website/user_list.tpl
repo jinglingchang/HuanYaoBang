@@ -57,25 +57,31 @@ table tr:nth-of-type(even) {
 <div class="dataArea">
     <table class="table table-bordered ">
         <tr>
+            <th style="width: 121px;">序号</th>
             <th style="width: 121px;">id</th>
-            <th style="width: 121px;">角色</th>
-            <th style="width: 154px;">昵称</th>
+            <th style="width: 154px;">微信昵称</th>
+            <th style="width: 154px;">性别</th>
+            <th style="width: 154px;">城市</th>
             <th style="width: 154px;">手机</th>
-            <th style="width: 154px;">邮箱</th>
-            <th style="width: 154px;">ip</th>
-            <th style="width: 154px;">登录时间</th>
-            <th style="width: 154px;">注册时间</th>
+            <th style="width: 154px;">创建时间</th>
+            <th style="width: 154px;">更新时间</th>
+            <th style="width: 154px;">操作</th>
+
+            
         </tr>
         {foreach from=$user_list item=datas key=key}
         <tr>
+            <td>{$key+1}</td>
             <td>{$datas.id}</td>
-            <td>{$datas.role}</td>
             <td>{$datas.nickname}</td>
+            <td>{$datas.sex}</td>
+            <td>{$datas.province}{$datas.city}</td>
             <td>{$datas.phone}</td>
-            <td>{$datas.email}</td>
-            <td>{$datas.ip}</td>
-            <td>{$datas.last_login_time|date_format:"%Y-%m-%d"}</td>
-            <td>{$datas.creat_time|date_format:"%Y-%m-%d"}</td>
+            <td>{$datas.update_time|date_format:"%Y-%m-%d"}</td>
+            <td>{$datas.create_time|date_format:"%Y-%m-%d"}</td>
+            <td>
+                <a href="pageredirst.php?action=user&functionname=detail&id={$datas.id}">查看详情</a>
+            </td>
         </tr>
         {/foreach}
     </table>
