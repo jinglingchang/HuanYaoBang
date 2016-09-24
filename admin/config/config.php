@@ -21,7 +21,7 @@ defined('MAINACTION') or define('MAINACTION', ROOTPATH . '/Lib/');
 
 defined('environment') or define('environment', 'produce');
 
-defined('UPLOADFILE') or define('UPLOADFILE', '/web/www/HuanYaoBang/web/Public/upload');
+defined('UPLOADFILE') or define('UPLOADFILE', '/wamp/www/HuanYaoBang/web/Public/upload');
 
 defined('STATICHTML') or define('STATICHTML', '/home/wwwroot/default/medhelper/Public/html');
 
