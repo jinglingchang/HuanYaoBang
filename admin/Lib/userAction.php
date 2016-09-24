@@ -8,7 +8,7 @@ class userAction {
 
         $userModel->getUserList();
 
-        $_ENV['smarty']->assign('user_list', $userModel->user_list);
+        $_ENV['smarty']->assign('user_list', $userModel->list);
 
         $_ENV['smarty']->assign('fenye', $userModel->fenye);
 
@@ -21,6 +21,24 @@ class userAction {
 
         $reply_content = $_REQUEST['reply_content'];
 
+    }
+
+
+    public function detail(){
+
+        $id = $_REQUEST['id'];
+
+        if(!empty($id)){
+
+            $userModel = new userModel();
+            $userModel->user_info($id);
+
+            $_ENV['smarty']->assign('data', $userModel->user_info);
+
+            $_ENV['smarty']->assign('operation_type', 1);
+
+            $_ENV['smarty']->display('user_detail');
+        }
     }
 
     public function reviewDetail(){
