@@ -2,8 +2,9 @@
 
 session_start();
 
-
 defined('CONFIGPATH') or define('CONFIGPATH', '/wamp/www/HuanYaoBang/config');
+
+//defined('CONFIGPATH') or define('CONFIGPATH', '/Users/Lev/Sites/HuanYaoBang/config');
 
 defined('WebSiteName') or define('WebSiteName','/HuanYaoBang/web');
 
@@ -50,6 +51,7 @@ defined('VAR_GROUP') or define('VAR_GROUP', 'g');
 defined('VAR_CUSTOMIZE') or define('VAR_CUSTOMIZE', 'c');
 
 include_once '/wamp/www/HuanYaoBang/config/include.php';
+//include_once '/Users/Lev/Sites/HuanYaoBang/config/include.php';
 
 error_reporting(E_ERROR | E_WARNING | E_PARSE); 
 
