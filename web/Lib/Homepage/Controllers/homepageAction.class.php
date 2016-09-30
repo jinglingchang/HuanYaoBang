@@ -33,4 +33,21 @@ class HomepageAction extends Action {
    		$this->display('yaoqinghaoyou');
    }
 
+   public function tianxiedingdan(){
+
+         $this->display('tianxiedingdan');
+   }
+
+   public function querendingdan(){
+
+         $this->display('querendingdan');
+   }
+
+   public function zhifujieguo(){
+
+         $this->display('zhifujieguo');
+   }
+
+   
+
 }

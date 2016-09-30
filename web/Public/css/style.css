@@ -234,8 +234,8 @@ img {border: 0;}
 
 /*订单页面*/
 
-
-.lev-warp{ border: solid 1px red; }
+*{ outline: none; }
+.lev-warp{ border: solid 1px none; }
 .lev-warp table { width: 100%; margin: 0 auto;}
 .lev-warp table tr{border-bottom: solid 0.1em #efefef;}
 
