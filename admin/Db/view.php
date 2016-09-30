@@ -69,6 +69,7 @@ class view {
 
         $this->smarty->assign('WEBSITEURL', WebSiteUrl);
 
+        $this->smarty->assign('SiteUrl', SiteUrl);
 
         $this->smarty->assign('MAINPUBLIC', MAINPUBLIC);
 

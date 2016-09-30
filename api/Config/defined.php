@@ -16,7 +16,7 @@ defined('WEBSITE_ROOT_Dal_DIR') or define('WEBSITE_ROOT_Dal_DIR',WEBSITE_ROOT_DI
 
 defined('WEBSITE_ROOT_ViewModule_DIR') or define('WEBSITE_ROOT_ViewModule_DIR',WEBSITE_ROOT_DIR.'/ViewModule');
 
-defined('ARTICLEURL') or define('ARTICLEURL','http://localhost/HuanYaoBang/web/');
+defined('ARTICLEURL') or define('ARTICLEURL','http://121.41.128.20/HuanYaoBang/web/');
 
 include_once ROOT_DIR.'/config/include.php';
 

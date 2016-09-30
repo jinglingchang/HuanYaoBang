@@ -3,9 +3,9 @@
 session_start();
 
 
-defined('CONFIGPATH') or define('CONFIGPATH', '/web/www/HuanYaoBang/config');
+defined('CONFIGPATH') or define('CONFIGPATH', '/wamp/www/hybbbb/config');
 
-defined('WebSiteName') or define('WebSiteName','/HuanYaoBang/web');
+defined('WebSiteName') or define('WebSiteName','/hybbbb/web');
 
 defined('ROOT_DIR') or define('ROOT_DIR',getcwd());
 
@@ -49,7 +49,7 @@ defined('VAR_GROUP') or define('VAR_GROUP', 'g');
 
 defined('VAR_CUSTOMIZE') or define('VAR_CUSTOMIZE', 'c');
 
-include_once '/web/www/HuanYaoBang/config/include.php';
+include_once '/wamp/www/hybbbb/config/include.php';
 
 error_reporting(E_ERROR | E_WARNING | E_PARSE); 
 

@@ -92,7 +92,7 @@
         <label for="fengmiantu">封面图</label>
         <input id='fengmiantu' name='fengmiantu' type="file" >
         {if $operation_type == 1}
-            <img src="http://localhost/HuanYaoBang/web/Public/upload/{$data.logo_name}" alt="..." class="img-thumbnail" style='width:150px;'>
+            <img src="{$SiteUrl}web/Public/upload/{$data.logo_name}" alt="..." class="img-thumbnail" style='width:150px;'>
         {/if}
         <p style='color: red;font-size: 14px;' id='fengmiantu_error'></p>
     </div>
@@ -101,7 +101,7 @@
         <label for="file2">资质图</label>
         <input id='zishitu' name='zishitu' type="file" >
         {if $operation_type == 1}
-            <img src="http://localhost/HuanYaoBang/web/Public/upload/{$data.zs_name}" alt="..." class="img-thumbnail" style='width:150px;'>
+            <img src="{$SiteUrl}web/Public/upload/{$data.zs_name}" alt="..." class="img-thumbnail" style='width:150px;'>
         {/if}
         <p style='color: red;font-size: 14px;' id='zishitu_error'></p>
     </div>

@@ -1,15 +1,39 @@
+<?php /* Smarty version Smarty-3.0-RC2, created on 2016-09-21 15:00:18
+         compiled from "C:\wamp\www\hybbbb\admin/Tpl/website/add_article_info.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:919157e23002df16b5-57319036%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '65f50934d6cf46fb3227f3bafd878d3275512d9a' => 
+    array (
+      0 => 'C:\\wamp\\www\\hybbbb\\admin/Tpl/website/add_article_info.tpl',
+      1 => 1474441215,
+    ),
+  ),
+  'nocache_hash' => '919157e23002df16b5-57319036',
+  'function' => 
+  array (
+  ),
+  'has_nocache_code' => false,
+)); /*/%%SmartyHeaderCode%%*/?>
 <!DOCTYPE html>
 <html lang="zh-CN">
 
 <head>
-    {include file="../public/_default.tpl"} {include file="../public/_editor.tpl"}
-    <script src="{$MAINPUBLIC}/javascript/config/agreement.js"></script>
-    <script src="{$MAINPUBLIC}/javascript/article.js"></script>
-    <script src="{$MAINPUBLIC}/javascript/jquery.cityselect.js"></script>
+    <?php $_template = new Smarty_Internal_Template("../public/_default.tpl", $_smarty_tpl->smarty, $_smarty_tpl, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null);
+ echo $_template->getRenderedTemplate();?><?php $_template->updateParentVariables(0);?><?php unset($_template);?> <?php $_template = new Smarty_Internal_Template("../public/_editor.tpl", $_smarty_tpl->smarty, $_smarty_tpl, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null);
+ echo $_template->getRenderedTemplate();?><?php $_template->updateParentVariables(0);?><?php unset($_template);?>
+    <script src="<?php echo $_smarty_tpl->getVariable('MAINPUBLIC')->value;?>
+/javascript/config/agreement.js"></script>
+    <script src="<?php echo $_smarty_tpl->getVariable('MAINPUBLIC')->value;?>
+/javascript/article.js"></script>
+    <script src="<?php echo $_smarty_tpl->getVariable('MAINPUBLIC')->value;?>
+/javascript/jquery.cityselect.js"></script>
     <script>
         $(function () {
 
-            var operation_type = '{$operation_type}'
+            var operation_type = '<?php echo $_smarty_tpl->getVariable('operation_type')->value;?>
+'
 
             $('#content').summernote({
 
@@ -24,39 +48,44 @@
 
 <body>
 <div style='margin-top: 30px;margin-left: 20px; overflow: auto;min-height: 700px;'>
-    <input type='hidden' id='id' name='id' value='{$data.id}'>
+    <input type='hidden' id='id' name='id' value='<?php echo $_smarty_tpl->getVariable('data')->value['id'];?>
+'>
     <div class="form-group">
         <label for="hospital">标题</label>
         <input type="text" class="form-control" id="title" placeholder="请输入标题" style='
-            width:500px;' value='{$data.title}'>
+            width:500px;' value='<?php echo $_smarty_tpl->getVariable('data')->value['title'];?>
+'>
         <p style='color: red;font-size: 14px;' id='title_error'></p>
     </div>
 
     <div class="form-group">
         <label for="hospital">作者</label>
         <input type="text" class="form-control" id="auther" placeholder="请输入作者" style='
-            width:500px;' value='{$data.auther}'>
+            width:500px;' value='<?php echo $_smarty_tpl->getVariable('data')->value['auther'];?>
+'>
         <p style='color: red;font-size: 14px;' id='auther_error'></p>
     </div>
 
     <div class="form-group">
         <label for="auther">类型</label>
         <div>
-            {if $operation_type == 1}
+            <?php if ($_smarty_tpl->getVariable('operation_type')->value==1){?>
                 <script>
                     $(function () {
 
-                        var type_id_1 = '{$data.type.id}';
+                        var type_id_1 = '<?php echo $_smarty_tpl->getVariable('data')->value['type']['id'];?>
+';
 
                         sessionStorage.setItem("type_id_1", type_id_1);
                     })
                 </script>
                 <button class="btn btn-default" type="submit" onclick='base.getType(3,1)'
-                        id='type_1_div_name'>{$data.type.name}</button>
-            {else}
+                        id='type_1_div_name'><?php echo $_smarty_tpl->getVariable('data')->value['type']['name'];?>
+</button>
+            <?php }else{ ?>
                 <button class="btn btn-default" type="submit" onclick='base.getType(3,1)' id='type_1_div_name'>请选择类型
                 </button>
-            {/if}
+            <?php }?>
         </div>
         <p style='color: red;font-size: 14px;' id='type_1_div_name_error'></p>
     </div>
@@ -64,33 +93,45 @@
     <div class="form-group">
         <label for="fengmiantu">封面图</label>
         <input id='fengmiantu' name='fengmiantu' type="file" >
-        {if $operation_type == 1}
-            <img src="{$SiteUrl}/web/Public/upload/{$data.logo_name}" alt="..." class="img-thumbnail" style='width:150px;'>
-        {/if}
+        <?php if ($_smarty_tpl->getVariable('operation_type')->value==1){?>
+            <img src="<?php echo $_smarty_tpl->getVariable('SiteUrl')->value;?>
+/web/Public/upload/<?php echo $_smarty_tpl->getVariable('data')->value['logo_name'];?>
+" alt="..." class="img-thumbnail" style='width:150px;'>
+        <?php }?>
         <p style='color: red;font-size: 14px;' id='fengmiantu_error'></p>
     </div>
 
     <div class="form-group">
-        <label for="doctor_type">标签&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="cursor: pointer;" onclick="$('#addTagModal').modal()">添加标签</a></label>
+        <label for="doctor_type">标签&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="cursor: pointer;"
+                                                                    onclick="$('#addTagModal').modal()">添加标签</a></label>
         <div style="width:300px;" id="tag_div">
 
-            {foreach from=$type_list item=lists}
+            <?php  $_smarty_tpl->tpl_vars['lists'] = new Smarty_Variable;
+ $_from = $_smarty_tpl->getVariable('type_list')->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+if (count($_from) > 0){
+    foreach ($_from as $_smarty_tpl->tpl_vars['lists']->key => $_smarty_tpl->tpl_vars['lists']->value){
+?>
 
-                {if $operation_type == 1}
+                <?php if ($_smarty_tpl->getVariable('operation_type')->value==1){?>
 
                 <label class="checkbox-inline" style="margin-left:0px;">
-                    <input type="checkbox" id="tag_array" value="{$lists.id}" name='tag_array' {if {$lists.id}|in_array:$data.tag_array}checked="checked" {/if}>{$lists.name}
+                    <input type="checkbox" id="tag_array" value="<?php echo $_smarty_tpl->tpl_vars['lists']->value['id'];?>
+" name='tag_array' <?php ob_start();?><?php echo $_smarty_tpl->tpl_vars['lists']->value['id'];?>
+<?php $_tmp1=ob_get_clean();?><?php if (in_array($_tmp1,$_smarty_tpl->getVariable('data')->value['tag_array'])){?>checked="checked" <?php }?>><?php echo $_smarty_tpl->tpl_vars['lists']->value['name'];?>
+
                 </label>
 
-                {else}
+                <?php }else{ ?>
 
                     <label class="checkbox-inline" style="margin-left:0px;">
-                        <input type="checkbox" id="tag_array" value="{$lists.id}" name='tag_array' >{$lists.name}
+                        <input type="checkbox" id="tag_array" value="<?php echo $_smarty_tpl->tpl_vars['lists']->value['id'];?>
+" name='tag_array' ><?php echo $_smarty_tpl->tpl_vars['lists']->value['name'];?>
+
                     </label>
 
-                {/if}
+                <?php }?>
 
-            {/foreach}
+            <?php }} ?>
 
 
         </div>
@@ -102,21 +143,24 @@
     <div class="form-group" style='width:375px;'>
         <label for="digest">文章摘要</label>
 
-        <textarea style="width: 400px;height: 300px;" id="digest">{$data.digest}</textarea>
+        <textarea style="width: 400px;height: 300px;" id="digest"><?php echo $_smarty_tpl->getVariable('data')->value['digest'];?>
+</textarea>
 
         <p style='color: red;font-size: 14px;' id='digest_error'></p>
     </div>
 
     <div class="form-group" style='width:375px;'>
         <label for="article_content">文章内容</label>
-        {if $operation_type == 1}
-            <div class="content" id='content' style='width:300px;'>{$data.content}</div>
-        {else}
+        <?php if ($_smarty_tpl->getVariable('operation_type')->value==1){?>
+            <div class="content" id='content' style='width:300px;'><?php echo $_smarty_tpl->getVariable('data')->value['content'];?>
+</div>
+        <?php }else{ ?>
             <div class="content" id='content' style='width:300px;'>请输入文章内容</div>
-        {/if}
+        <?php }?>
         <p style='color: red;font-size: 14px;' id='content_error'></p>
     </div>
-    <button type="submit" class="btn btn-default" onclick='article.submit({$operation_type})'>保存</button>
+    <button type="submit" class="btn btn-default" onclick='article.submit(<?php echo $_smarty_tpl->getVariable('operation_type')->value;?>
+)'>保存</button>
 
     <button type="submit" class="btn btn-default" onclick='base.preview("article_content")'>预览</button>
 </div>

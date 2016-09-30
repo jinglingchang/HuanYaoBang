@@ -9,9 +9,11 @@ defined('ROOTPATH') or define('ROOTPATH', getcwd());
 
 defined('project') or define('project', 'admin');
 
-defined('APIURL') or define('APIURL','http://localhost/HuanYaoBang/api');
+defined('APIURL') or define('APIURL','http://121.41.128.20/HuanYaoBang/api');
 
-defined('WebSiteUrl') or define('WebSiteUrl', 'http://' . $_SERVER['HTTP_HOST'] . '/HuanYaoBang/' . project);
+defined('WebSiteUrl') or define('WebSiteUrl', 'http://' . $_SERVER['HTTP_HOST'] . '/hybbbb/' . project);
+
+defined('SiteUrl') or define('SiteUrl', 'http://' . $_SERVER['HTTP_HOST'] . '/hybbbb/');
 
 defined('FOOTBASIC') or define('FOOTBASIC', ROOTPATH . '/Db/');
 
@@ -21,7 +23,8 @@ defined('MAINACTION') or define('MAINACTION', ROOTPATH . '/Lib/');
 
 defined('environment') or define('environment', 'produce');
 
-defined('UPLOADFILE') or define('UPLOADFILE', '/web/www/HuanYaoBang/web/Public/upload');
+defined('UPLOADFILE') or define('UPLOADFILE', '/wamp/www/hybbbb/web/Public/upload');
+// defined('UPLOADFILE') or define('UPLOADFILE', '/home/wwwroot/default/HuanYaoBang/web/Public/upload');
 
 defined('STATICHTML') or define('STATICHTML', '/home/wwwroot/default/medhelper/Public/html');
 

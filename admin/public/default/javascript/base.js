@@ -9,7 +9,7 @@ function base() {
 
 base.prototype.getDomainUrl = function() {
 
-    return 'http://localhost/HuanYaoBang/admin';
+    return 'http://localhost/hybbbb/admin';
 
 }
 

@@ -11,7 +11,7 @@ if (!empty($_REQUEST['action'])) {
     } else {
         $function = 'index';
     }
- 
+ // print_r($action );exit;
     $pageController = new $action();
 
     $pageController->$function();

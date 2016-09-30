@@ -17,11 +17,11 @@ function setDefaultDatabases() {
 
     $_ENV['db']['DBUSER'] = 'root';
 
-    $_ENV['db']['DBPASS'] = '123456';
+    $_ENV['db']['DBPASS'] = '';
 
     $_ENV['db']['DBHOST'] = 'localhost';
 
-    $_ENV['db']['DBNAME'] = 'HuanYaoBang';
+    $_ENV['db']['DBNAME'] = 'huanyaobang';
 
     setDB(0);
 }
