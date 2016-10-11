@@ -1,16 +1,16 @@
-<?php /* Smarty version Smarty-3.0-RC2, created on 2016-09-18 21:58:47
+<?php /* Smarty version Smarty-3.0-RC2, created on 2016-10-11 09:17:54
          compiled from "/Users/Lev/Sites/HuanYaoBang/web/Lib/Homepage/Tpl/Homepage/index.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:121134337457de9d974a44b1-12406796%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:104820048257fc3dc28b8a59-03703115%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'a7a4e7bbc62481750843bffd6a9658a2fcf96ed2' => 
     array (
       0 => '/Users/Lev/Sites/HuanYaoBang/web/Lib/Homepage/Tpl/Homepage/index.tpl',
-      1 => 1474196696,
+      1 => 1475925530,
     ),
   ),
-  'nocache_hash' => '121134337457de9d974a44b1-12406796',
+  'nocache_hash' => '104820048257fc3dc28b8a59-03703115',
   'function' => 
   array (
   ),
@@ -52,8 +52,43 @@ $_smarty_tpl->decodeProperties(array (
     <button class="topnav" id="open-button"></button>
   </nav>
 </div>
-<div class="footnav">
-    <div class="col-xs-3 text-center">
+
+<style type="text/css">
+  .footer-table{
+    width: 100%;
+  }
+  .footer-table tr td{
+    border: solid 1px #ccc; width: 25%; text-align: center; height: 3em;
+  }
+</style>
+
+<div class="footnav" style=" border:none;">
+
+  <table class="footer-table">
+    <tr>
+      <td></td><td></td><td>服务介绍</td><td></td>
+    </tr>
+
+    <tr>
+      <td></td><td>立即下单</td><td>医生招募</td><td></td>
+    </tr>
+
+    <tr>
+      <td></td><td>我的订单</td><td>在线客服</td><td></td>
+    </tr>
+
+    <tr>
+      <td></td><td>导医台</td><td>患者评价</td><td>返利活动</td>
+    </tr>
+
+    <tr>
+      <td>键盘</td><td>换药服务</td><td>关于我们</td><td>最新活动</td>
+    </tr>
+
+  </table>
+
+
+<!--     <div class="col-xs-3 text-center">
       <a href="<?php echo $_smarty_tpl->getVariable('websiteUrl')->value;?>
 /homepage/huanyaoxuzhi">
         <i class="iconfont icon-shop"></i><p>换药须知</p>
@@ -76,8 +111,11 @@ $_smarty_tpl->decodeProperties(array (
 /homepage/yaoqinghaoyou">
         <i class="iconfont icon-dizhi"></i><p>邀请好友</p>
       </a>
-    </div>
+    </div> -->
+
 </div>
+
+
 
 <script src="<?php echo $_smarty_tpl->getVariable('WebSiteUrlPublic')->value;?>
 /js/classie.js"></script>

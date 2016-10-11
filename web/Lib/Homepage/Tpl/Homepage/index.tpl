@@ -28,8 +28,43 @@
     <button class="topnav" id="open-button"></button>
   </nav>
 </div>
-<div class="footnav">
-    <div class="col-xs-3 text-center">
+
+<style type="text/css">
+  .footer-table{
+    width: 100%;
+  }
+  .footer-table tr td{
+    border: solid 1px #ccc; width: 25%; text-align: center; height: 3em;
+  }
+</style>
+
+<div class="footnav" style=" border:none;">
+
+  <table class="footer-table">
+    <tr>
+      <td></td><td></td><td>服务介绍</td><td></td>
+    </tr>
+
+    <tr>
+      <td></td><td>立即下单</td><td>医生招募</td><td></td>
+    </tr>
+
+    <tr>
+      <td></td><td>我的订单</td><td>在线客服</td><td></td>
+    </tr>
+
+    <tr>
+      <td></td><td>导医台</td><td>患者评价</td><td>返利活动</td>
+    </tr>
+
+    <tr>
+      <td>键盘</td><td>换药服务</td><td>关于我们</td><td>最新活动</td>
+    </tr>
+
+  </table>
+
+
+<!--     <div class="col-xs-3 text-center">
       <a href="{$websiteUrl}/homepage/huanyaoxuzhi">
         <i class="iconfont icon-shop"></i><p>换药须知</p>
       </a>
@@ -48,8 +83,11 @@
       <a href="{$websiteUrl}/homepage/yaoqinghaoyou">
         <i class="iconfont icon-dizhi"></i><p>邀请好友</p>
       </a>
-    </div>
+    </div> -->
+
 </div>
+
+
 
 <script src="{$WebSiteUrlPublic}/js/classie.js"></script>
 <script src="{$WebSiteUrlPublic}/js/main3.js"></script>
