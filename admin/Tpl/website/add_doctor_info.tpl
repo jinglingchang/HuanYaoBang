@@ -70,7 +70,7 @@
             <input id='cover_pic_url' name='cover_pic_url' type="file" >
 
             {if $operation_type == 1}
-                <img src="http://localhost/HuanYaoBang/web/Public/upload/{$data.cover_pic_url}" alt="..." class="img-thumbnail" style='width:150px;'>
+                <img src="{$SiteUrl}/web/Public/upload/{$data.cover_pic_url}" alt="..." class="img-thumbnail" style='width:150px;'>
             {/if}
 
             <p style='color: red;font-size: 14px;' id='cover_pic_url_error'></p>
