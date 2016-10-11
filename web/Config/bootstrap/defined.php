@@ -2,12 +2,12 @@
 
 session_start();
 
-defined('CONFIGPATH') or define('CONFIGPATH', '/wamp/www/HuanYaoBang/config');
+// defined('CONFIGPATH') or define('CONFIGPATH', '/wamp/www/HuanYaoBang/config');
 
 // <<<<<<< HEAD
-// defined('CONFIGPATH') or define('CONFIGPATH', '/wamp/www/hybbbb/config');
+ defined('CONFIGPATH') or define('CONFIGPATH', '/wamp/www/hybbbb/config');
 // =======
-defined('CONFIGPATH') or define('CONFIGPATH', '/Users/Lev/Sites/HuanYaoBang/config');
+// defined('CONFIGPATH') or define('CONFIGPATH', '/Users/Lev/Sites/HuanYaoBang/config');
 
 
 defined('WebSiteName') or define('WebSiteName','/hybbbb/web');
@@ -54,12 +54,12 @@ defined('VAR_GROUP') or define('VAR_GROUP', 'g');
 
 defined('VAR_CUSTOMIZE') or define('VAR_CUSTOMIZE', 'c');
 
-<<<<<<< HEAD
+
 include_once '/wamp/www/hybbbb/config/include.php';
-=======
-include_once '/wamp/www/HuanYaoBang/config/include.php';
+
+//include_once '/wamp/www/HuanYaoBang/config/include.php';
 //include_once '/Users/Lev/Sites/HuanYaoBang/config/include.php';
->>>>>>> e939d072006599607938f42490705eb59d58014d
+
 
 error_reporting(E_ERROR | E_WARNING | E_PARSE); 
 

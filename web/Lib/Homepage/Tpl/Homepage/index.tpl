@@ -23,7 +23,7 @@
 <body class="huibg">
 <div class="vipcenter">
   <nav class="navbar text-center">
-     <button class="topleft" onclick ="javascript:history.go(-1);"><span style="    color: #fff;" class="iconfont icon-fanhui"></span></button>
+     <button class="topleft" onclick ="javascript:history.go(-1);"><span class="iconfont icon-fanhui hiscolor"></span></button>
     <a class="navbar-tit center-block">微信入口</a>
     <button class="topnav" id="open-button"></button>
   </nav>
@@ -42,23 +42,23 @@
 
   <table class="footer-table">
     <tr>
-      <td></td><td></td><td>服务介绍</td><td></td>
+      <td></td><td></td><td><a href="{$websiteUrl}/homepage/huanyaoxuzhi">服务介绍</a></td><td></td>
     </tr>
 
     <tr>
-      <td></td><td>立即下单</td><td>医生招募</td><td></td>
+      <td></td><td><a href="{$websiteUrl}/homepage/createorder">立即下单</a></td><td><a href="{$websiteUrl}/homepage/doczhaomu">医生招募</a></td><td></td>
     </tr>
 
     <tr>
-      <td></td><td>我的订单</td><td>在线客服</td><td></td>
+      <td></td><td><a href="{$websiteUrl}/homepage/myorder">我的订单</a></td><td><a href="">在线客服</a></td><td></td>
     </tr>
 
     <tr>
-      <td></td><td>导医台</td><td>患者评价</td><td>返利活动</td>
+      <td></td><td><a href="{$websiteUrl}/homepage/daoyitai">导医台</a></td><td><a href="{$websiteUrl}/homepage/useraccess">患者评价</a></td><td><a href="{$websiteUrl}/homepage/zuixinhuodong">返利活动</a></td>
     </tr>
 
     <tr>
-      <td>键盘</td><td>换药服务</td><td>关于我们</td><td>最新活动</td>
+      <td>键盘</td><td><a href="">换药服务</a></td><td><a href="">关于我们</a></td><td><a href="">最新活动</a></td>
     </tr>
 
   </table>

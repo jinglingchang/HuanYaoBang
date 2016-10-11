@@ -23,6 +23,21 @@ class HomepageAction extends Action {
    		$this->display('daoyitai');
    }
 
+   public function createorder(){
+
+      $this->display('tianxiedingdan');   
+   }
+
+   public function daoyitaidetail(){
+
+         $this->display('daoyitaidetail');
+   }
+
+   public function myorder(){
+
+         $this->display('myorder');
+   }
+
    public function zuixinhuodong(){
 
    		$this->display('zuixinhuodong');
@@ -46,6 +61,22 @@ class HomepageAction extends Action {
    public function zhifujieguo(){
 
          $this->display('zhifujieguo');
+   }
+   public function doczhaomu(){
+
+      $this->display('doczhaomu');
+
+   }
+   public function useraccess(){
+
+      $this->display('useraccess');
+      
+   }
+
+   public function docaccessdetail(){
+      
+      $this->display('docaccessdetail');
+
    }
 
    

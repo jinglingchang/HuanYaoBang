@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.0-RC2, created on 2016-09-21 13:42:39
+<?php /* Smarty version Smarty-3.0-RC2, created on 2016-10-11 09:23:24
          compiled from "C:\wamp\www\hybbbb\admin/Tpl/default/top.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1062057e21dcfcd7eb9-06804630%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1560357fc3f0c156130-09770680%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -10,7 +10,7 @@ $_smarty_tpl->decodeProperties(array (
       1 => 1473786538,
     ),
   ),
-  'nocache_hash' => '1062057e21dcfcd7eb9-06804630',
+  'nocache_hash' => '1560357fc3f0c156130-09770680',
   'function' => 
   array (
   ),

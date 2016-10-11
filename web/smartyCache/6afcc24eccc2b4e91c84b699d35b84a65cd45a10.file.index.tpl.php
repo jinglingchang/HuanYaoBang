@@ -1,16 +1,16 @@
-<?php /* Smarty version Smarty-3.0-RC2, created on 2016-09-20 14:00:46
+<?php /* Smarty version Smarty-3.0-RC2, created on 2016-10-11 10:19:37
          compiled from "C:\wamp\www\hybbbb\web/Lib/Homepage/Tpl/Homepage/index.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:782257e0d08e4446f9-81496195%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:3258357fc4c394d6b52-54702022%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '6afcc24eccc2b4e91c84b699d35b84a65cd45a10' => 
     array (
       0 => 'C:\\wamp\\www\\hybbbb\\web/Lib/Homepage/Tpl/Homepage/index.tpl',
-      1 => 1474281835,
+      1 => 1476152374,
     ),
   ),
-  'nocache_hash' => '782257e0d08e4446f9-81496195',
+  'nocache_hash' => '3258357fc4c394d6b52-54702022',
   'function' => 
   array (
   ),
@@ -47,13 +47,55 @@ $_smarty_tpl->decodeProperties(array (
 <body class="huibg">
 <div class="vipcenter">
   <nav class="navbar text-center">
-     <button class="topleft" onclick ="javascript:history.go(-1);"><span style="    color: #fff;" class="iconfont icon-fanhui"></span></button>
+     <button class="topleft" onclick ="javascript:history.go(-1);"><span class="iconfont icon-fanhui hiscolor"></span></button>
     <a class="navbar-tit center-block">微信入口</a>
     <button class="topnav" id="open-button"></button>
   </nav>
 </div>
-<div class="footnav">
-    <div class="col-xs-3 text-center">
+
+<style type="text/css">
+  .footer-table{
+    width: 100%;
+  }
+  .footer-table tr td{
+    border: solid 1px #ccc; width: 25%; text-align: center; height: 3em;
+  }
+</style>
+
+<div class="footnav" style=" border:none;">
+
+  <table class="footer-table">
+    <tr>
+      <td></td><td></td><td><a href="<?php echo $_smarty_tpl->getVariable('websiteUrl')->value;?>
+/homepage/huanyaoxuzhi">服务介绍</a></td><td></td>
+    </tr>
+
+    <tr>
+      <td></td><td><a href="<?php echo $_smarty_tpl->getVariable('websiteUrl')->value;?>
+/homepage/createorder">立即下单</a></td><td><a href="<?php echo $_smarty_tpl->getVariable('websiteUrl')->value;?>
+/homepage/doczhaomu">医生招募</a></td><td></td>
+    </tr>
+
+    <tr>
+      <td></td><td><a href="<?php echo $_smarty_tpl->getVariable('websiteUrl')->value;?>
+/homepage/myorder">我的订单</a></td><td><a href="">在线客服</a></td><td></td>
+    </tr>
+
+    <tr>
+      <td></td><td><a href="<?php echo $_smarty_tpl->getVariable('websiteUrl')->value;?>
+/homepage/daoyitai">导医台</a></td><td><a href="<?php echo $_smarty_tpl->getVariable('websiteUrl')->value;?>
+/homepage/useraccess">患者评价</a></td><td><a href="<?php echo $_smarty_tpl->getVariable('websiteUrl')->value;?>
+/homepage/zuixinhuodong">返利活动</a></td>
+    </tr>
+
+    <tr>
+      <td>键盘</td><td><a href="">换药服务</a></td><td><a href="">关于我们</a></td><td><a href="">最新活动</a></td>
+    </tr>
+
+  </table>
+
+
+<!--     <div class="col-xs-3 text-center">
       <a href="<?php echo $_smarty_tpl->getVariable('websiteUrl')->value;?>
 /homepage/huanyaoxuzhi">
         <i class="iconfont icon-shop"></i><p>换药须知</p>
@@ -76,8 +118,11 @@ $_smarty_tpl->decodeProperties(array (
 /homepage/yaoqinghaoyou">
         <i class="iconfont icon-dizhi"></i><p>邀请好友</p>
       </a>
-    </div>
+    </div> -->
+
 </div>
+
+
 
 <script src="<?php echo $_smarty_tpl->getVariable('WebSiteUrlPublic')->value;?>
 /js/classie.js"></script>
