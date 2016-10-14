@@ -67,6 +67,16 @@ class HomepageAction extends Action {
       $this->display('doczhaomu');
 
    }
+   public function sqcg(){
+
+      $this->display('sqcg');
+
+   }
+   public function shoushu(){
+
+      $this->display('shoushu');
+
+   }
    public function useraccess(){
 
       $this->display('useraccess');

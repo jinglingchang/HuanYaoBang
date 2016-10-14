@@ -31,7 +31,7 @@
 </div>
 
 <div>
-  <img src="{$WebSiteUrlPublic}/img/newly_activity.png" style="width:100%" />
+  <img src="{$WebSiteUrlPublic}/img/invite_friend.png" style="width:100%" />
 </div>
 
 <script src="{$WebSiteUrlPublic}/js/classie.js"></script>

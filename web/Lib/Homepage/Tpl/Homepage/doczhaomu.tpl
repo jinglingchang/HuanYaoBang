@@ -55,15 +55,21 @@
         <td class="lev-td">年薪:</td>
          <td><input type="text" name="shoushushijian" placeholder="输入年薪，单位 元"></td>
     </tr>
+    <tr>
+        <td class="rt">认证照片:<div class="fontcolor-gray">工作证/医师/药师执照 选一</div></td><td class="textright pr" > <img src="{$WebSiteUrlPublic}/img/camera.png" class="r"></td>
+    </tr>
 
   </table>
-</div>
-
-<div class="doc-up">
-    <img src="{$WebSiteUrlPublic}/img/u1305.png" class="doc-uppic" title="上传图片">
+  <div class="ggs">
+    <div class="ggd">
+      <p>招募说明：</p>
+      <p>诚恳邀请广大医师加入我们,共建一个术后服务患者的平台。</p>
+      <p>咨询热线:4008-008-008</p>
+    </div>
+  </div>
 </div>
 <div>
-  <button class="lev-button doc-bottom"  onclick="javascript:window.location.href='zhifujieguo'">提交申请</button>
+  <button class="lev-button doc-bottom"  onclick="javascript:window.location.href='sqcg'">提交申请</button>
 </div>  
 </body>
 </html>

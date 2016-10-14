@@ -1,4 +1,5 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> {include file="../public/_default.tpl"}
+
 <style>
     body {
         overflow-x: hidden;
@@ -48,6 +49,7 @@
         padding-left: 25px;
     }
 </style>
+<script src="{$MAINPUBLIC}/javascript/article.js"></script>
 <script>
 </script>
 <div style="height: 20px;"></div>
@@ -74,6 +76,7 @@
                 <td>{$datas.create_time|date_format:"%Y-%m-%d %H:%M:%S"}</td>
                 <td>
                     <a href="pageredirst.php?action=article&functionname=edit&id={$datas.id}">编辑</a>
+                    <a onclick="delete_ar({$datas.id});" >删除</a>
                 </td>
             </tr>
         {/foreach}

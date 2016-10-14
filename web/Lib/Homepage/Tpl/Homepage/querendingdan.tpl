@@ -82,6 +82,13 @@
     </tr>
   </table>
 </div>
+  <div class="ggs">
+    <div class="ggd">
+      <p>支付说明：</p>
+      <p>1.定金50元，24小时之内可拨打热线400-400-0000申请退款。2.医师上门服务再支付剩余金额。3.下单后，有客服进行电话确认，确认后定金不可退还。</p>
+      <p></p>
+    </div>
+  </div>
 <div>
   <button class="lev-button" onclick="javascript:window.location.href='{$websiteUrl}/homepage/zhifujieguo'" >支付定金50元</button>
 </div>

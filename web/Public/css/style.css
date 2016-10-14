@@ -278,7 +278,7 @@ img {border: 0;}
 .doc-bottom{position: absolute;width: 100%;bottom: 0;}
 
 .useraccess-position{line-height: 2em;margin-left: 1em;}
-.useraccess-backpic{height: 150px;background-image: url(../img/u1305.png) ;background-size: 100% 100%;}
+.useraccess-backpic{height: 150px;background-image: url(../img/banner.png) ;background-size: 100% 100%;}
 .useraccess-td{width: 50%;padding-left: 1em;height: 65px;}
 .useraccess-pf{color: red;margin-left: 1em}
 .useraccess-username{text-align: right;padding-right: 1em;}
@@ -300,10 +300,30 @@ img {border: 0;}
 .docdew{width:60px;}
 .docdew-a{width:40px;}
 .docac-a{line-height: 2em;font-size: 16px;margin-left: 1em;}
+.ggs{width: 100%;background-color: #ebebeb;}
+.ggd{width: 90%;margin: 0 auto;padding: 5px;}
 
 .di-a{height:0.8em; background: #ebebeb;}
 .di-b{color:red;text-align: right;margin-right:1em;}
 .di-w{width: 40%;}
+
+.rt{width:60%;padding-left: 5%}
+.pr{padding-right: 5%}
+
+
+.xzshoushu table  tr {height: 100px;}
+.xzshoushu table  tr td {width: 32%;}
+.xzshoushu table  tr td  img {width: 100%; height: 100%;}
+
+.otab table {height: 50px;width: 100%;margin-bottom: 5px;}
+.otab table tr {text-align: center;}
+.otab table tr td {border: 1px solid #eee;}
+.otab table  tr td  img {width: 15px;}
+
+.tadaoyi {border-bottom:  1px solid #eee;}
+
+
+
 
 .fontcolor-gray{color: gray;}
 .fontcolor-red{color: red;}
@@ -313,6 +333,7 @@ img {border: 0;}
 .font-red{color:red;}
 .height3{height: 3em;}
 .textcenter{text-align: center;}
+.textright{text-align: right;}
 .mf{    margin-left: 1em;}
 .mr{    margin-right: 1em;}
 .mrs{margin-top: 0.5em;}
@@ -322,6 +343,7 @@ img {border: 0;}
 .hiscolor{color: #fff;}
 .picwh{width: 100%;height: 100%;}
 .picwh-a{width: 60%;height: 60%;}
+.r{height: 30px;}
 
 
 

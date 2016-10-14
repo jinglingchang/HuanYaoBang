@@ -47,13 +47,25 @@ class userAction {
 
         if(!empty($id)){
 
-            $url = APIURL.'/review/detail?id='.$id;
+            // $url = APIURL.'/review/detail?id='.$id;
+            // // $result = file_get_contents( $url);
+            // $curl = curl_init();
+            // curl_setopt($curl, CURLOPT_URL,  $url);
+            // curl_setopt($curl, CURLOPT_HEADER, 0);
+            // curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+            // $data = curl_exec($curl);
+            // curl_close($curl);
+            // // 显示获得的数据
 
-            $result = file_get_contents($url);
+            // var_dump(json_decode($data, false)); 
 
-            $array = json_decode($result,true);
+            //$array = json_decode($data,true);
 
-            $_ENV['smarty']->assign('datas',$array);
+            $reviewModel = new reviewModel();
+
+            $reviewModel->reviewDetail($id);
+
+            $_ENV['smarty']->assign('data', $reviewModel->review_info);
 
             $_ENV['smarty']->display('review_detail');
 

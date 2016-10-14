@@ -120,6 +120,16 @@ class articleModel extends baseModel {
             $this->list = array();
         }
     }
+    // 删除评论
+    public function deleteArticle($id=0)
+    {
+        if($id){
+            M('hyb_article')->where('id='.$id)->delete();
+        }
+ 
+    }
+
+    
 
 }
 

@@ -33,7 +33,7 @@
 <div>
 </div>
 <div class="pic-center">
-  <img src="{$WebSiteUrlPublic}/img/u1305.png" class="picwh-a">
+  <img src="{$WebSiteUrlPublic}/img/zfcg.png" class="picwh-a">
 </div>
 <div class="tishi-wenzi">
       <p>您的订单：XXXXXXXXXXXXXXXX</p>

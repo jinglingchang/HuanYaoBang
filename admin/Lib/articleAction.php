@@ -71,5 +71,13 @@ class articleAction
 
         $articleModel->createAndUpdateData($_REQUEST['operation_type']);
     }
+    //删除 评论 
+    public function delete_article_ajax(){
+
+        $articleModel = new articleModel();
+
+        $articleModel->deleteArticle($_REQUEST['id']);
+
+    }
 
 }

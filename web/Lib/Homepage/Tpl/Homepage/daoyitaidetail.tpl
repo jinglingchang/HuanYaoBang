@@ -40,7 +40,7 @@
     <p>摘要哇哇哇都是摘要摘要哇哇哇都是摘要摘要哇哇哇都是摘要摘要哇哇哇都是摘要</p>
   </div>
 </div>
-<div class="dytd-img"><img src="{$WebSiteUrlPublic}/img/u1305.png" width="90%" height="90%"></div>
+<div class="dytd-img"><img src="{$WebSiteUrlPublic}/img/wzxq.png" width="90%" height="90%"></div>
 <div class="dytd-margin">
   <div class="dytd-c">
     <p>内容内容哇哇哇都是摘要摘要哇哇哇都是摘要摘要哇哇哇都是摘要摘要哇哇哇都是摘要</p>

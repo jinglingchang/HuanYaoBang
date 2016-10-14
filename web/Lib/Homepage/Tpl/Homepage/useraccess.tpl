@@ -42,7 +42,7 @@
       <div class="fontcolor-gray fontsize-12"> 2016-1-11</div>
     </td>
     <td  class="useraccess-username">
-      <div  class="useraccess-username  fontcolor-gray fontsize-12"> 樱桃小丸子 <img src="{$WebSiteUrlPublic}/img/u1305.png" class="useraccess-userpic"></div>
+      <div  class="useraccess-username  fontcolor-gray fontsize-12"> 樱桃小丸子 <img src="{$WebSiteUrlPublic}/img/lbxx.png" class="useraccess-userpic"></div>
     </td>
   </tr>
   <tr >
@@ -57,7 +57,7 @@
       <div class="fontcolor-gray fontsize-12"> 2016-1-11</div>
     </td>
     <td  class="useraccess-username">
-      <div  class="useraccess-username  fontcolor-gray fontsize-12"> 樱桃小丸子 <img src="{$WebSiteUrlPublic}/img/u1305.png" class="useraccess-userpic"></div>
+      <div  class="useraccess-username  fontcolor-gray fontsize-12"> 樱桃小丸子 <img src="{$WebSiteUrlPublic}/img/lbxx.png" class="useraccess-userpic"></div>
     </td>
   </tr>
   <tr >
@@ -72,7 +72,7 @@
       <div class="fontcolor-gray fontsize-12"> 2016-1-11</div>
     </td>
     <td  class="useraccess-username">
-      <div  class="useraccess-username  fontcolor-gray fontsize-12"> 樱桃小丸子 <img src="{$WebSiteUrlPublic}/img/u1305.png" class="useraccess-userpic"></div>
+      <div  class="useraccess-username  fontcolor-gray fontsize-12"> 樱桃小丸子 <img src="{$WebSiteUrlPublic}/img/lbxx.png" class="useraccess-userpic"></div>
     </td>
   </tr>
   <tr >

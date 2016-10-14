@@ -114,7 +114,7 @@
   <tr>
     <td><div class="mf fontcolor-gray">2016-12-22</div></td>
   </tr>
-  <tr >
+  <tr  class="tadaoyi">
     <th>
       <td>
         <div class="mr mrs mrb">我是评论评我是评论评我是评论评我是评论评我是评论评我是评论评我是评论评
@@ -122,14 +122,14 @@
       </td>
     </th>
   </tr>
-    <tr>
+  <tr>
     <td rowspan=2 ><div  class=" docdew-a mf"><img src="{$WebSiteUrlPublic}//img/u1305.png" class="picwh" ></div></td>
     <td><div class="mf">王大锤  </div></td>
   </tr>
   <tr>
     <td><div class="mf fontcolor-gray">2016-12-22</div></td>
   </tr>
-  <tr >
+  <tr class="tadaoyi">
     <th>
       <td>
         <div class="mr mrs mrb">我是评论评我是评论评我是评论评我是评论评我是评论评我是评论评我是评论评
@@ -145,7 +145,7 @@
   <tr>
     <td><div class="mf fontcolor-gray">2016-12-22</div></td>
   </tr>
-  <tr >
+  <tr class="tadaoyi">
     <th>
       <td>
         <div class="mr mrs mrb">我是评论评我是评论评我是评论评我是评论评我是评论评我是评论评我是评论评

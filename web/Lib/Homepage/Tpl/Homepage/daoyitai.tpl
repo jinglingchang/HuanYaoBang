@@ -36,11 +36,19 @@
     <input class="dyt-input" type="text" name="search" value="" placeholder="  请输入要查询的文章" />
   </div>
 </div>
+<div class="otab">
+  <table>
+      <tr>
+      <td>推荐 <img   src="{$WebSiteUrlPublic}/img/xsj.png" ></td>
+      <td>专业 <img   src="{$WebSiteUrlPublic}/img/xsj.png" ></td>
+      <td>排序 <img   src="{$WebSiteUrlPublic}/img/xsj.png" ></td>
+    </tr>
+  </table>
+</div>
 <table>
-
-  <tr onclick="javascript:window.location.href='daoyitaidetail'">
+  <tr onclick="javascript:window.location.href='daoyitaidetail'" class="tadaoyi">
     <td class="dyt-td-w">
-      <img class="pic-w-h" src="{$WebSiteUrlPublic}/img/u1305.png" >
+      <img class="pic-w-h" src="{$WebSiteUrlPublic}/img/pi.png" >
     </td>
     <td class="dyt-td2-w">
       <p >文章标题</p>
@@ -48,9 +56,9 @@
     </td>
   </tr>
 
- <tr>
+ <tr  onclick="javascript:window.location.href='daoyitaidetail'" class="tadaoyi">
     <td class="dyt-td-w">
-      <img class="pic-w-h" src="{$WebSiteUrlPublic}/img/u1305.png">
+      <img class="pic-w-h" src="{$WebSiteUrlPublic}/img/pi.png">
     </td>
     <td class="dyt-td2-w">
       <p >文章标题</p>
@@ -58,9 +66,9 @@
     </td>
   </tr>
 
-  <tr>
+  <tr onclick="javascript:window.location.href='daoyitaidetail'" class="tadaoyi">
     <td class="dyt-td-w">
-      <img  class="pic-w-h" src="{$WebSiteUrlPublic}/img/u1305.png" >
+      <img  class="pic-w-h" src="{$WebSiteUrlPublic}/img/pi.png" >
     </td>
     <td class="dyt-td2-w">
       <p >文章标题</p>

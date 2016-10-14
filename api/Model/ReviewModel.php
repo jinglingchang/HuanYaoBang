@@ -95,6 +95,7 @@ class ReviewModel extends baseModel
 
         $reply_review_info = M('hyb_user_review')->where("reply_id = " . $info['id'] . ' and review_type = 2')->select();
 
+
         if ($type == 1) {
 
             if (count($reply_review_info) > 0) {

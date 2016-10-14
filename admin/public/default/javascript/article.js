@@ -109,4 +109,23 @@ article.prototype.submit = function(type) {
 
 }
 
+function  delete_ar(id){
+
+    formData.append('id', id);
+
+    var url = base.getDomainUrl() + '/pageredirst.php?action=article&functionname=delete_article_ajax';
+
+    base.ajax(url, 'post', formData, function success(data) {
+
+        var url = 'pageredirst.php?action=article&functionname=article_list';
+
+        window.location.href = url;
+
+    }, function error(error) {
+
+
+    })
+
+}
+
 var article = new article();

@@ -19,6 +19,7 @@
 <!--[if IE]>
 <script src="js/html5.js"></script>
 <![endif]-->
+
 </head>
 <body class="huibg">
 <div class="vipcenter">
@@ -28,12 +29,23 @@
     <button class="topnav" id="open-button"></button>
   </nav>
 </div>
+<div id="bg" style="display: none;  position: absolute;  top: 0%;  left: 0%;  width: 100%;  height: 100%;  background-color: black;  z-index:1001;  -moz-opacity: 0.7;  opacity:.70;  filter: alpha(opacity=70);"></div>
+<div id="show"   style="display: none;  position: absolute;  top: 25%;  left: 15%;  width: 69%;  height: 49%;  padding: 8px;  border: 8px solid #E8E9F7;  background-color: white;  z-index:1002;  overflow: auto;">
 
+   <p style="color: #2a6496;">单件换药包</p>
+   <p>200元（一个药包只能用于一次换药）</p>
+   <p style="color: #2a6496;">优惠信息</p>
+   <p>2件9.5折,3件9折</p>
+   <p style="color: #2a6496;">换药须知</p>
+   <p>1.建议购买件数：（一个药包只能用于一次换药）,有最低购买数量限制。</p>
+   <p>2.根据自身情况,填写需购买换药包件数：①每2~3天换药;②根据不同部位，计算不同拆线时间;③一个换药包只能用于一次换药;</p>
+   <div style="text-align: center;margin-top: 20px;width: 100%;"><button style="width: 60%;background-color: #78cdd4;border-radius: 8px;"  onclick="hidediv()">关闭</button></div>
+</div>
 <div class="lev-warp">
   <table>
     <tr>
         <td class="lev-td">手术信息:</td>
-        <td><input type="text" name="shoushuxinxi" placeholder=""></td>
+        <td><input type="text" name="shoushuxinxi" placeholder=""  onclick="javascript:window.location.href='{$websiteUrl}/homepage/shoushu'"></td>
     </tr>
     <tr><td colspan="2" style=" height:0.8em; background: #ebebeb"></td></tr>
     <tr>
@@ -83,7 +95,7 @@
   </table>
 </div>
 <div class="row-div">
-    <input type="checkbox" name="fuwuxieyi" value="">《换药帮服务协议》
+    <input type="checkbox" name="fuwuxieyi" value=""><a onclick="showdiv();"> 《换药帮服务协议》</a>
 </div>
 
 <div>
@@ -92,4 +104,14 @@
 <div style=" height:3em"></div>
 
 </body>
+<script type="text/javascript">
+    function showdiv() {            
+        $('#bg').css('display','block');
+        $('#show').css('display','block');
+    }
+    function hidediv() {
+        $('#bg').css('display','none');
+        $('#show').css('display','none');
+    }
+</script>
 </html>
