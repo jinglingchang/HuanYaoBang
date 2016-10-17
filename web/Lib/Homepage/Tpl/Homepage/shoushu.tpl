@@ -16,7 +16,7 @@
 <!--必要样式-->
 <link rel="stylesheet" type="text/css" href="{$WebSiteUrlPublic}/css/menu_elastic.css" />
 <script src="{$WebSiteUrlPublic}/js/snap.svg-min.js"></script>
-<!--[if IE]>
+<!--[if IE]> 
 <script src="js/html5.js"></script>
 <![endif]-->
 </head>

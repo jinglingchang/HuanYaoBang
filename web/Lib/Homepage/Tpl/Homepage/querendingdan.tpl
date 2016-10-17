@@ -19,7 +19,7 @@
 <!--[if IE]>
 <script src="js/html5.js"></script>
 <![endif]-->
-</head>
+</head> 
 <body class="huibg">
 <div class="vipcenter">
   <nav class="navbar text-center">
