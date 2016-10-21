@@ -7,7 +7,7 @@ session_start();
  defined('CONFIGPATH') or define('CONFIGPATH', '/Users/Lev/Sites/HuanYaoBang/config');
 
 //&&&  defined('WebSiteName') or define('WebSiteName','/hybbbb/web');
-defined('WebSiteName') or define('WebSiteName','/hybbbb/web');
+defined('WebSiteName') or define('WebSiteName','/HuanYaoBang/web');
 
 defined('ROOT_DIR') or define('ROOT_DIR',getcwd());
 

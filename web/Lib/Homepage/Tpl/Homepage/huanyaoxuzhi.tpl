@@ -31,7 +31,7 @@
 </div>
 
 <div>
-  <img src="{$WebSiteUrlPublic}//img/change_medical_process.png" style="width:100%" />
+  <img src="{$WebSiteUrlPublic}/img/change_medical_process.png" style="width:100%" />
 </div> 
 <div style="height: 4em;position: absolute;width: 100%;margin-top: -14.5em;"onclick="javascript:location.href='{$websiteUrl}/homepage/tianxiedingdan' " >
 </div>
